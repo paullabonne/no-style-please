@@ -41,6 +41,23 @@ hr { margin: 2rem 0; }
 
 p { margin: 1rem 0; }
 
+a {
+  color: teal; // Change the link color to teal
+  text-decoration: none; // You can keep or change this as per your preference
+  &:hover {
+    text-decoration: underline; // Optional: underline on hover
+  }
+  &:visited {
+    color: teal; // Ensure the color stays teal after visiting
+  }
+  &:active {
+    color: teal; // Ensure the color stays teal when the link is active
+  }
+  &:focus {
+    color: teal; // Ensure the color stays teal when the link is focused
+  }
+}
+
 li { margin: 0.4rem 0; }
 
 *:target { background: yellow; }
