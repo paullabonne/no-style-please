@@ -58,7 +58,7 @@ a {
   }
 }
 
-li { margin: 0rem 0; }
+//li { margin: 0rem 0; }
 
 *:target { background: yellow; }
 
@@ -81,7 +81,7 @@ table { width: 100%; }
 table, th, td {
   border: thin solid black;
   border-collapse: collapse;
-  padding: 0.4rem;
+  padding: 0rem;
 }
 
 code {
@@ -93,13 +93,13 @@ div.highlighter-rouge code {
   display: block;
   overflow-x: auto;
   white-space: pre-wrap;
-  padding: 1rem;
+  padding: 0rem;
 }
 
 blockquote {
   font-style: italic;
   border: thin solid black;
-  padding: 1rem;
+  padding: 0rem;
 
   p { margin: 0; }
 }
